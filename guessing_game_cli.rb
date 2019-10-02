@@ -1,5 +1,5 @@
 def run_guessing_game
-  random_number = rand(7)
+  random_number = rand(1..7)
   prompt_user()
   user_input = get_user_input()
   if user_input == "exit"
